@@ -9,6 +9,6 @@ class PageController extends Controller
 {
     public function index(){
         $Movies= Movie::all();
-        return view('index',["Movie" => $Movies]);
+        return view('index',["Movies" => $Movies]);
     }
 }
